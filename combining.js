@@ -4,4 +4,7 @@ const list2 = [1,3,5,7];
 console.log(list1);
 console.log(list2);
 
-console.log()
+const CombinedList = list1.concat(list2) ;
+
+console.log("the Combined List is: ");
+console.log(CombinedList);
